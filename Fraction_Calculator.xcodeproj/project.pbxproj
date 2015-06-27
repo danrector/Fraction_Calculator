@@ -21,6 +21,8 @@
 		D180932C193D869A00484E82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D180930E193D869A00484E82 /* UIKit.framework */; };
 		D1809334193D869A00484E82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1809332193D869A00484E82 /* InfoPlist.strings */; };
 		D1809336193D869A00484E82 /* Fraction_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1809335193D869A00484E82 /* Fraction_CalculatorTests.m */; };
+		D1809341193D910100484E82 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = D1809340193D910100484E82 /* Fraction.m */; };
+		D1809344193D957400484E82 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1809343193D957400484E82 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		D1809331193D869A00484E82 /* Fraction_CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fraction_CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		D1809333193D869A00484E82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1809335193D869A00484E82 /* Fraction_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction_CalculatorTests.m; sourceTree = "<group>"; };
+		D180933F193D8FC700484E82 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		D1809340193D910100484E82 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		D1809342193D94F300484E82 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		D1809343193D957400484E82 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				D180931C193D869A00484E82 /* Main.storyboard */,
 				D180931F193D869A00484E82 /* ViewController.h */,
 				D1809320193D869A00484E82 /* ViewController.m */,
+				D180933F193D8FC700484E82 /* Fraction.h */,
+				D1809340193D910100484E82 /* Fraction.m */,
+				D1809342193D94F300484E82 /* Calculator.h */,
+				D1809343193D957400484E82 /* Calculator.m */,
 				D1809322193D869A00484E82 /* Images.xcassets */,
 				D1809311193D869A00484E82 /* Supporting Files */,
 			);
@@ -252,6 +262,8 @@
 				D1809321193D869A00484E82 /* ViewController.m in Sources */,
 				D180931B193D869A00484E82 /* AppDelegate.m in Sources */,
 				D1809317193D869A00484E82 /* main.m in Sources */,
+				D1809341193D910100484E82 /* Fraction.m in Sources */,
+				D1809344193D957400484E82 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
